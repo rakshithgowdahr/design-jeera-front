@@ -1,0 +1,32 @@
+
+@import '../../../Utils/variables.scss';
+.duplicate{
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid white;
+    cursor: pointer;
+    text-align: center;
+    font-family: $font;
+    font-weight: 500;
+    transition: all 0.3s ease-in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 13px;
+    padding: 0px 10px;
+
+
+    
+
+    img{
+        width: 20px;
+    }
+}
+
+.active{
+    background-color: $primary-color;
+    svg{
+        fill: white !important;
+    }
+}

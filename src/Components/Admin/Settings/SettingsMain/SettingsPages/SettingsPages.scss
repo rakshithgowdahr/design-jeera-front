@@ -1,0 +1,18 @@
+.settings__currentPages{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    .settings__pageItem{
+        border: 1px solid rgb(240, 240, 240);
+        padding: 10px 15px;
+        margin-right: 10px;
+        span{
+            margin: 0px 10px;
+        }
+        .settings__delete{
+            cursor: pointer;
+            color: #e74c3c;
+            font-weight: 600;
+        }
+    }
+}

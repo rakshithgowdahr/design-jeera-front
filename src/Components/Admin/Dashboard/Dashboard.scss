@@ -1,0 +1,22 @@
+@import "../../../Utils/variables.scss";
+.admin__dashboard{
+    font-family: $font;
+    .admin__dashboard__cards{
+        display: flex;
+        margin-top: 50px;
+        .admin__dashboard-card{
+            width: 300px;
+            height: 100px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 0px 40px;
+            .admin__dashboard-card--title{
+                font-size: 25px;
+                font-weight: 600;
+            }
+        }
+    }
+}

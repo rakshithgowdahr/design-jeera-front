@@ -1,0 +1,12 @@
+@import '../../../../Utils/variables.scss';
+.settings__title{
+    padding: 0px 30px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: $font;
+    color: rgb(100, 100, 100);
+
+}
+.settings__form{
+    width: 50%;
+}
